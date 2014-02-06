@@ -88,7 +88,7 @@ public class ActivityLoaderActivity extends Activity {
 		// will carry out the baseIntent. Store the Intent in the 
 		// chooserIntent variable below. HINT: using the Intent class' 
 		// createChooser())
-		Intent chooserIntent = Intent.createChooser(intent, "Pick an app:");
+		Intent chooserIntent = Intent.createChooser(intent, "Pick an app");
 
         // Start the chooser Activity, using the chooser intent
         Log.i(TAG,"Chooser Intent Action:" + chooserIntent.getAction());

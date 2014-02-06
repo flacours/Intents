@@ -22,8 +22,10 @@
             </intent-filter>
 
             <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
                 <action android:name="android.intent.action.VIEW" />
                 <data android:scheme="http" />
+                <data android:host="www.google.com" />
             </intent-filter>
             <!-- Add necessary intent filter information so that this
             			    Activity will accept Intents with the 
